@@ -5,6 +5,7 @@ import pytest
 @pytest.mark.parametrize("number, expected", [
     (1, 1),
     (2, 2),
+    (3, "Fizz")
 ])
 def test_parametrize(number, expected):
      fb = FizzBuzz()
