@@ -1,4 +1,4 @@
+class FizzBuzz:
 
-
-def fizzbuzz(number):
-  return number
+  def fizzbuzz(self, number):
+    return number
